@@ -1,0 +1,163 @@
+#title{
+    background-color: #ff4c68;
+    height: 860px;
+}
+
+#font{
+    font-family: 'Montserrat', sans-serif;
+    
+margin-top: 50px;
+margin-left: 10px;
+height: 1.5;
+size: 3rem;
+color: white;
+
+}
+
+.container-fluid{
+   padding: 3rem;
+    
+}
+
+#nav{
+    margin-bottom:4.5rem;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 50px;
+}
+.nav-item{
+    padding: 0px 18px;
+}
+
+.download-button{
+    margin: 5% 3% 2% 0;
+    margin-left: 10px;
+}
+
+.rotate{
+    width: 60%;
+    padding-top: 20px;
+    transform: rotate(25deg);
+    position: absolute;
+    /* margin-left: 20%; */
+    
+}
+/* .img{
+    position: absolute;
+} */
+
+
+/* Features */
+
+#features{
+    padding:4.5%;
+    position: relative;
+    background-color: white;
+    z-index: 1;
+}
+
+.feature{
+    padding: 30px;
+    text-align: center;
+}
+
+.icon{
+    color: #ff4c68;
+}
+
+
+/* testimonials */
+
+ #testimonials{
+    padding: 7% 20%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+    font-family: "Montserrat";
+} 
+.dog-img{
+    width: 200px;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+
+/* Press */
+
+#press{
+    text-align: center;
+    background-color: #ff4c68;
+    padding-bottom: 20px;
+    
+}
+
+.logo{
+    width: 100px;
+    margin: 20px;
+}
+
+
+/* pricing section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+    font-family: "Montserrat";
+    /* font-weight: bold; */
+}
+.button:hover{
+    background-color: white;
+    color: black;
+}
+.push{
+    padding-top: 40px;
+}
+
+/* cta */
+
+#cta{
+    background-color: #ff4c68;
+    font-family: "Montserrat";
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+.button{
+      margin: 30px;
+}
+
+/* footer */
+
+#footer{
+    text-align: center;
+    margin: 50px;
+}
+.ficon{
+    padding: 5px;
+
+}
+
+
+/* media query */
+
+@media (max-width:1000px){
+
+   .download-button{
+    margin-left: 167px;
+    }
+    #font{
+        text-align: center;  
+    }
+    #title{
+        height: 1500px;
+        /* text-align: center; */
+    }
+    .rotate{
+        margin-left: 167px;
+        transform: rotate(0);
+        /* position: absolute; */
+        /* margin-left: 20%; */
+        
+    }
+}
